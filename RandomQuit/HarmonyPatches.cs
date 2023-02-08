@@ -7,7 +7,7 @@ public class HarmonyPatches
 {
 	private static Harmony instance;
 
-	public const string InstanceId = "com.depromo.gorillatag.randomquit";
+	public const string InstanceId = "gorillatag.randomquit";
 
 	public static bool IsPatched { get; private set; }
 
@@ -17,7 +17,7 @@ public class HarmonyPatches
 		{
 			if (instance == null)
 			{
-				instance = new Harmony("com.depromo.gorillatag.randomquit");
+				instance = new Harmony("gorillatag.randomquit");
 			}
 			instance.PatchAll(Assembly.GetExecutingAssembly());
 			IsPatched = true;

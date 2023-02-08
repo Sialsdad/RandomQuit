@@ -2,7 +2,7 @@ namespace RandomQuit;
 
 internal class PluginInfo
 {
-	public const string GUID = "com.depromo.gorillatag.randomquit";
+	public const string GUID = "gorillatag.randomquit";
 
 	public const string Name = "RandomQuit";
 

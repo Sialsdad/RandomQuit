@@ -8,7 +8,7 @@ using Utilla;
 namespace RandomQuit;
 
 [Description("HauntedModMenu")]
-[BepInPlugin("com.depromo.gorillatag.randomquit", "RandomQuit", "1.0.0")]
+[BepInPlugin("gorillatag.randomquit", "RandomQuit", "1.0.0")]
 [BepInDependency("org.legoandmars.gorillatag.utilla", "1.5.0")]
 [ModdedGamemode]
 public class Plugin : BaseUnityPlugin
